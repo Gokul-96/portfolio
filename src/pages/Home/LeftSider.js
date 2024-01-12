@@ -5,6 +5,7 @@ function LeftSider() {
     <div className='fixed left-0 bottom-40 px-10 sm:static'>
         <div className='flex flex-col items-center'>
             <div className='flex flex-col gap-3 sm:flex-row'>
+            <a href=""></a>
             <a href="https://www.linkedin.com/in/gokulakrishnan-m96/">{" "} <i class="ri-linkedin-fill text-gray-400 text-xl">  </i></a>
 
         
