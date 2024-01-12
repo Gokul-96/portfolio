@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FaHome, FaBars } from 'react-icons/fa';
-import { IoIosClose } from 'react-icons/io';
 import { useMediaQuery } from 'react-responsive';
 
 function Header() {
