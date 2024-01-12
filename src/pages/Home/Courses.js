@@ -12,7 +12,7 @@ function Courses() {
       <div className='flex py-10 gap-20 sm:flex-col'>
         <div className='flex flex-col gap-10 border-l-2 border-[#135e4c82] w-1/3 sm:flex-row sm:overflow-x-scroll sm:w-full'>
           {courses.map((course, index) => (
-            <div
+            <div key={course.id}
               onClick={() => {
                 setSelectedItemIndex(index);
               }}

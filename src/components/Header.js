@@ -22,7 +22,7 @@ function Header() {
         <div className="flex items-center">
           <div className="flex-grow"></div>
           <button className="inline md:hidden self-end nav-link" onClick={clickHandler}>
-            {togglerNav ? <IoIosClose /> : <FaBars />}
+            {togglerNav ? null : <FaBars />}
           </button>
         </div>
       )}

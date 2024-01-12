@@ -14,7 +14,7 @@ function Projects() {
           {projects.map((project, index) => (
             <Link
               to={project.link_front_end}
-              key={index}
+              key={project.id}
               onClick={() => {
                 setSelectedItemIndex(index);
               }}

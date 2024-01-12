@@ -11,7 +11,7 @@ function Experiences() {
         <div className='flex py-10 gap-20 sm:flex-col bg-primary'>
             <div className='flex flex-col gap-10 border-l-2 border-[#135e4c82] w-1/3 sm:flex-row sm:overflow-scroll-x sm:w-full'>
                  {experiences.map((experience, index)=> (
-                  <div onClick={()=>{
+                  <div key={experience.id} onClick={()=>{
                     setSelectedItemIndex(index);
                   }}
                   className='cursor-pointer'
