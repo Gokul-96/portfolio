@@ -26,7 +26,7 @@ export const projects = [
     id:2,
     skills: ["NodeJS","ExpressJS","MongoDB"],
     title: "Task Management",
-    details: "Task oriented project to create a new item in the list,modify,edit and delete.It help users organize and track their activities efficiently",
+    details: "Task oriented project to create a new item in the list,modify,edit and delete.It help users organize and track their activities efficiently.Used postman to testing API's",
     GitHub_backend: "https://github.com/Gokul-96/TaskManagement-BE.git",
     Hosted_backend: "https://todo-0pch.onrender.com",
   },
