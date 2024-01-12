@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import Resume from '../../assests/docs/Resume-Gokulakrishnan.pdf'
+//import Resume from '../../assests/docs/Resume-Gokulakrishnan.pdf'
 
 function Intro() {
   return (
@@ -18,7 +18,7 @@ function Intro() {
     </p>
    <div className='flex gap-5'>
 
-    <a className='flex-row border-2 border-tertiary text-tertiary px-5 py-3 rounded' href={Resume} download='Resume-Gokulakrishnan.pdf'> My Resume</a>
+    <a className='flex-row border-2 border-tertiary text-tertiary px-5 py-3 rounded' href='https://drive.google.com/file/d/1LiLK4POG1s3TPyB9lRjgnntp9_fmGtaA/view?usp=sharing' > My Resume</a>
     </div>
 </div>
   )

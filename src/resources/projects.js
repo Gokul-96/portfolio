@@ -24,13 +24,11 @@ export const projects = [
   },
   {
     id:2,
-    skills: [],
-    title: "gg",
-    details: "ggg",
-    link_front_end: "/",
-    link_back_end: "/",
-    Hosted_link_frontend: "/",
-    Hosted_link_backend: "/",
+    skills: ["NodeJS","ExpressJS","MongoDB"],
+    title: "Task Management",
+    details: "Task oriented project to create a new item in the list,modify,edit and delete.It help users organize and track their activities efficiently",
+    GitHub_backend: "https://github.com/Gokul-96/TaskManagement-BE.git",
+    Hosted_backend: "https://todo-0pch.onrender.com",
   },
   {
     id:3,
