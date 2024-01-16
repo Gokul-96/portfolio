@@ -14,7 +14,7 @@ function About() {
     "POSTMAN"
   ];
   return (
-    <div>
+    <div className="bg-primary">
       <SectionTitle title="About" />
 
       <div className="flex w-full items-center sm:flex-col bg-primary">
