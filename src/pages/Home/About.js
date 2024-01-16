@@ -14,15 +14,15 @@ function About() {
     "POSTMAN"
   ];
   return (
-    <div className="bg-primary">
+    <div>
       <SectionTitle title="About" />
 
       <div className="flex w-full items-center sm:flex-col bg-primary">
         <div className="h-[50vh] w-1/2 sm:w-full ">
           <lottie-player
             src="https://lottie.host/b2244d0b-597d-4a70-8595-727ece0f5312/RnzhCiGrfe.json"
-            background="#FFFFFF"
-            speed="1"
+            background="primary"
+            speed="0.5"
             autoplay
             direction="1"
             mode="normal"
@@ -42,13 +42,13 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="py-5">
+      <div className="py-5 bg-primary">
         <h1 className="text-tertiary text-xl">
           Here are a few technologies I have been working recently:
         </h1>
         <div className="flex flex-wrap gap-10 mt-5 ">
           {skills.map((skill, index) => (
-            <div className="border border-tertiary py-3 px-5">
+            <div className="border border-tertiary py-3 px-5 ">
               <h1 className="text-tertiary">{skill}</h1>
             </div>
           ))}

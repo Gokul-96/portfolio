@@ -1,15 +1,8 @@
 import React, { useState } from 'react';
 import SectionTitle from '../../components/SectionTitle';
 import courses from '../../resources/courses';
-// import Bootstrap from "../../assets/certificates/Bootstrap.png"
-// import Css3 from "../../assets/certificates/Css3.png"
-// import Fullstack from "../../assets/certificates/FullStack.png"
-// import Html5 from "../../assets/certificates/Html5.png"
-// import Javascript from "../../assets/certificates/Javascript.jpeg"
-// import Mongodb from "../../assets/certificates/Mongodb.png"
-// import Mysql from "../../assets/certificates/Mysql.png"
-// import Nodejs from "../../assets/certificates/Nodejs.png"
-// import Reactjs from "../../assets/certificates/Reactjs.png"
+import '../../index'
+
 
 
 function Courses() {
@@ -40,7 +33,7 @@ function Courses() {
 
         <div className='flex items-center justify-center gap-10 sm:flex-col'>
           
-          <img src={courses[selectedItemIndex].image}  alt='Certificates'  />
+        <img className="course-image" src={courses[selectedItemIndex].image} alt='Certificates' />
          
 
         

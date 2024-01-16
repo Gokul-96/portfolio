@@ -38,3 +38,17 @@
   .active {
     @apply text-white bg-orange-300;
   }
+
+  /* image */
+  
+  .course-image {
+    max-width: 100%;/* Set a fixed width */
+    height: 450px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    box-shadow: 0 4px 8px rgba(19, 101, 152, 0.1); /* Add a subtle box shadow */
+    transition: transform 1s ease-in-out; /* Add a smooth transition effect for scaling */
+  }
+
+.course-image:hover {
+  transform: scale(1.1); /* Scale the image on hover */
+}

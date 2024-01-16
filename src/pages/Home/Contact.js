@@ -10,7 +10,7 @@ function Contact() {
         country:"INDIA"
     };
   return (
-    <div>
+    <div >
       <SectionTitle title="Hello" />
 
       <div className="flex sm:flex-col items-center justify-center bg-primary">
@@ -28,7 +28,7 @@ function Contact() {
           <lottie-player
             src="https://lottie.host/f96dd938-c8c2-493b-8322-97ffeaa550be/gMJEKss3Yx.json"
             background="##FFFFFF"
-            speed="1"
+            speed="0.5"
             
             autoplay
             direction="1"
