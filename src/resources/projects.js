@@ -1,7 +1,7 @@
 export const projects = [
   {
     id:1,
-    image:"./projectpic/motorcycle.jpg",
+    
       
     skills: [
       "Html5",
@@ -26,7 +26,7 @@ export const projects = [
   },
   {
     id:2,
-    image:"./projectpic/queryresolve.jpg",
+  
     skills: [
       "Html5",
       "Css3",

@@ -27,9 +27,7 @@ function Header() {
       )}
       {isMobile ? (
         <div className={`flex flex-col ${togglerNav ? 'items-center' : 'hidden md:flex'} gap-4`}>
-          <NavLink className="nav-link" onClick={isMobile ? clickHandler : undefined} to="/">
-            Home
-          </NavLink>
+          
           <NavLink className="nav-link" onClick={isMobile ? clickHandler : undefined} to="/about">
             About
           </NavLink>
@@ -42,9 +40,7 @@ function Header() {
         </div>
       ) : (
         <div className="flex md:flex-col gap-4">
-          <NavLink className="nav-link" to="/">
-            Home
-          </NavLink>
+          
           <NavLink className="nav-link" to="/about">
             About
           </NavLink>
