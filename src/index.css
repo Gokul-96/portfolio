@@ -52,3 +52,76 @@
 .course-image:hover {
   transform: scale(1.1); /* Scale the image on hover */
 }
+
+
+/* project image */
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.flex-container > div {
+  flex: 1;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+@media (max-width: 600px) {
+  /* Apply this style for smaller screens */
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .project-image {
+    margin-right: 0;
+    margin-bottom: 20px; /* Add margin to the bottom for better spacing */
+  }
+}
+
+.link-button {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  margin-right: 10px; /* Adjust spacing between buttons */
+}
+
+.link-github {
+  color: #fff;
+  background-color: #de631c; /* GitHub color */
+}
+
+.link-hosted {
+  color: #fff;
+  background-color: #0a3b72; /* Hosted color */
+}
+
+.link-icon {
+  margin-right: 5px;
+}
+
+.link-button:hover {
+  background-color: #ffffff; /* Change background color on hover */
+  color: #000000; /* Change text color on hover */
+  border-color: #ffffff; /* Change border color on hover */
+}
+
+.link-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link-group p {
+  margin: 0; /* Remove default paragraph margin */
+}

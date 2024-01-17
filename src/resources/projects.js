@@ -1,6 +1,8 @@
 export const projects = [
   {
     id:1,
+    image:"./projectpic/motorcycle.jpg",
+      
     skills: [
       "Html5",
       "Css3",
@@ -19,34 +21,63 @@ export const projects = [
       "https://github.com/Gokul-96/motorcycleservice_Booking_front_end.git",
     GitHub_backend:
       "https://github.com/Gokul-96/motorcycleservice_Booking_back_end.git",
-    Hosted_frontend: "https://dreamy-mooncake-baa02a.netlify.app/",
-    Hosted_backend: "https://motor-cycle-servicebooking-back-end.onrender.com/",
+    Hosted: "https://dreamy-mooncake-baa02a.netlify.app/",
+  
   },
   {
     id:2,
-    skills: ["NodeJS","ExpressJS","MongoDB"],
-    title: "Task Management",
-    details: "Task oriented project to create a new item in the list,modify,edit and delete.It help users organize and track their activities efficiently.Used postman to testing API's",
-    GitHub_backend: "https://github.com/Gokul-96/TaskManagement-BE.git",
-    Hosted_backend: "https://todo-0pch.onrender.com",
+    image:"./projectpic/queryresolve.jpg",
+    skills: [
+      "Html5",
+      "Css3",
+      "Javascript",
+      "React",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Postman",
+    ],
+    title: "Zen Class Query Resolving-Clone",
+    details:
+      "This is Zen class query resolving clone project. This application is used to get the queries resolved",
+    
+    GitHub_frontend:
+      "https://github.com/Gokul-96/motorcycleservice_Booking_front_end.git",
+    GitHub_backend:
+      "https://github.com/Gokul-96/motorcycleservice_Booking_back_end.git",
+    Hosted: "https://dreamy-mooncake-baa02a.netlify.app/",
+  
   },
   {
     id:3,
+    image:"./projectpic/taskmanagement.jpg",
+    skills: ["NodeJS","ExpressJS","MongoDB"],
+    title: "Task Management",
+    details: "Task oriented project to create a new item in the list,modify,edit and delete.It helps users organize and prioritize their tasks, increasing productivity and ensuring efficient completion of daily activitie.Used postman to testing API's",
+    GitHub_backend: "https://github.com/Gokul-96/TaskManagement-BE.git",
+    Hosted: "https://todo-0pch.onrender.com",
+  },
+  {
+    id:4,
+    image:"./projectpic/pokemon.png",
     skills: ["Html5", "Css3", "Javascript"],
     title: "Pokemon API",
     details:
       "Displaying pokemon's cards using fetch() to get the data from Pokemon API. The listed Pokemon's weight,moves and ability in the card and to handling the promise async and await function used here.  ",
     GitHub_frontend: "https://github.com/Gokul-96/webcode-pokemon.git",
-    Hosted_frontend: " https://soft-pudding-c4e215.netlify.app/",
+    Hosted: " https://soft-pudding-c4e215.netlify.app/",
   },
-  {id:4,
+ 
+  {id:5,
+    image:"./projectpic/car.png",
     skills: ["Html5", "Css3", "Javascript"],
     title: "TRACK AND TRACE OF VEHICLE",
     details:
       "Driver and Vehicle 1D Barcode Decoded by the sick scanner and evaluated using Track and Trace software and send the decoded data to SAP using API. SAP will validate the data whether it is okay or not and send the signal to Track and Trace software. In the parking lot created UI for showing output data.",
   },
   {
-    id:5,
+    id:6,
+    image:"./projectpic/camera.png",
     skills: ["OpenCV"],
     title: "AUTOMATION OCR READING AND INSPECTION",
     details:
