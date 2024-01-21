@@ -10,7 +10,7 @@ function Intro() {
     <p className='text-white w-2/3'>
     <Typewriter
   options={{
-    strings: ['Senior Application Engineer ', 'MERN stack developer'],
+    strings: ['Senior Application Engineer ', 'MERN Stack Developer'],
     autoStart: true,
     loop: true,
   }}

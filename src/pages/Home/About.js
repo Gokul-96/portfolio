@@ -30,15 +30,15 @@ function About() {
         </div>
         <div className="flex flex-col gap-5 w-1/2 mx-10 sm:w-full sm:p-5">
           <p className="text-white">
-            I started my career as a Software Engineer. I had worked in
-            Industrial Automation (open CV and machine vision) as well as
-            front-end technologies. I later served as a Senior Application
-            Engineer in machine vision. To further enhance my skills, I have
-            professionally pursued MERN stack web development courses in Guvi.
+            I began my career as a Software Engineer, working extensively with
+            front-end technologies and Industrial Automation, specifically in
+            open CV and machine vision. Subsequently, I transitioned to the role
+            of a Senior Application Engineer, specializing in vision.
+            Seeking continuous improvement and skill enhancement, I have pursued
+            professional courses in MERN stack web development at Guvi an IIMA & IITM incubated company."
           </p>
           <p className="text-white">
-            I have a bachelor's in Electronics and Instrumentation Engineering
-            in 2018.
+          I obtained a bachelor's degree in Electronics and Instrumentation Engineering in 2018.
           </p>
         </div>
       </div>

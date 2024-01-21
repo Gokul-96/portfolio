@@ -12,15 +12,9 @@ function Home() {
   return (
     <div>
      
-      <div  className='bg-primary px-40 sm:px-5'>
+      <div  className='bg-primary px-40 sm:px-8'>
       <Intro/>
-      <About/>
-      <Projects/>
-      <Experiences/>
-      <Courses/>
-      <Contact/>
-      <Footer/>
-      <LeftSider/>
+      
       </div>
       
     </div>
