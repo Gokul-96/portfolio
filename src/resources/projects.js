@@ -21,6 +21,7 @@ export const projects = [
       "https://github.com/Gokul-96/motorcycleservice_Booking_front_end.git",
     GitHub_backend:
       "https://github.com/Gokul-96/motorcycleservice_Booking_back_end.git",
+      Hosted: "https://dreamy-mooncake-baa02a.netlify.app/",
     
   
   },
@@ -44,7 +45,7 @@ export const projects = [
       "https://github.com/Gokul-96/Ticketing_system_FE.git",
     GitHub_backend:
       "https://github.com/Gokul-96/Ticketing_system_BE.git",
-    Hosted: "https://dreamy-mooncake-baa02a.netlify.app/",
+
   
   },
   {
