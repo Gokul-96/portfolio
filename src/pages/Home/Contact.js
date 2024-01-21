@@ -7,7 +7,8 @@ function Contact() {
         age: 27,
         gender:"male",
         email:"gokulakrishnan.m96@gmail.com",
-        country:"INDIA"
+        country:"INDIA",
+        Phone:"7200607680"
     };
   return (
     <div >
