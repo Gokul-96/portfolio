@@ -34,6 +34,12 @@ function Header() {
           <NavLink className="nav-link" onClick={isMobile ? clickHandler : undefined} to="/projects">
             Projects
           </NavLink>
+          <NavLink className="nav-link" onClick={isMobile ? clickHandler : undefined} to="/experiences">
+            Experiences
+          </NavLink>
+          <NavLink className="nav-link" onClick={isMobile ? clickHandler : undefined} to="/courses">
+            Certificates
+          </NavLink>
           <NavLink className="nav-link" onClick={isMobile ? clickHandler : undefined} to="/contact">
             Contact
           </NavLink>
@@ -46,6 +52,12 @@ function Header() {
           </NavLink>
           <NavLink className="nav-link" to="/projects">
             Projects
+          </NavLink>
+          <NavLink className="nav-link" to="/experiences">
+            Experiences
+          </NavLink>
+          <NavLink className="nav-link" to="/certificates">
+            Certificates
           </NavLink>
           <NavLink className="nav-link" to="/contact">
             Contact
