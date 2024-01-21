@@ -56,7 +56,7 @@ function Header() {
           <NavLink className="nav-link" to="/experiences">
             Experiences
           </NavLink>
-          <NavLink className="nav-link" to="/certificates">
+          <NavLink className="nav-link" to="/courses">
             Certificates
           </NavLink>
           <NavLink className="nav-link" to="/contact">
