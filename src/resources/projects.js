@@ -8,6 +8,7 @@ export const projects = [
       "Css3",
       "Javascript",
       "React",
+      "Context",
       "NodeJS",
       "ExpressJS",
       "MongoDB",
@@ -33,6 +34,8 @@ export const projects = [
       "Css3",
       "Javascript",
       "React",
+      "Reducer",
+      "SocketIO",
       "NodeJS",
       "ExpressJS",
       "MongoDB",
@@ -45,19 +48,13 @@ export const projects = [
       "https://github.com/Gokul-96/Ticketing_system_FE.git",
     GitHub_backend:
       "https://github.com/Gokul-96/Ticketing_system_BE.git",
+      
 
   
   },
+ 
   {
     id:3,
-    skills: ["NodeJS","ExpressJS","MongoDB"],
-    title: "Task Management",
-    details: "Task-oriented project designed to create, modify, edit, and delete items in a list. It aids users in organizing and prioritizing their tasks, enhancing productivity, and ensuring the efficient completion of daily activities. Postman was used for testing APIs.",
-    GitHub_backend: "https://github.com/Gokul-96/TaskManagement-BE.git",
-    Hosted: "https://todo-0pch.onrender.com",
-  },
-  {
-    id:4,
     skills: ["Html5", "Css3", "Javascript"],
     title: "Pokemon API",
     details:
@@ -66,14 +63,14 @@ export const projects = [
     Hosted: " https://soft-pudding-c4e215.netlify.app/",
   },
  
-  {id:5,
-    skills: ["Html5", "Css3", "Javascript","MongoDB","Git"],
+  {id:4,
+    skills: ["Html5", "Css3", "Javascript","React","Web Sockets","MongoDB","Git"],
     title: "TRACK AND TRACE OF VEHICLE",
     details:
       "The driver and Vehicle 1D barcode are decoded by the sick scanner and evaluated using Track and Trace software. The decoded data is then sent to SAP using an API. SAP validates the data whether it is okay or not and sends a signal back to the Track and Trace software. In the parking lot, a user interface (UI) has been created to display the output data.",
   },
   {
-    id:6,
+    id:5,
 
     skills: ["OpenCV"],
     title: "AUTOMATION OCR READING AND INSPECTION",
