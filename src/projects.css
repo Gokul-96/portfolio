@@ -1,0 +1,97 @@
+.project-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project-card {
+    flex: 1 0 45%; /* Adjust width for two cards in one row */
+    background-color: #895151;
+    border: 1px solid #4b9ac5;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.55s ease; /* Smooth transition for zoom effect */
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); /* Zoom in effect on hover */
+  }
+  
+  .project-card h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold; /* Make title bold */
+    border-bottom: 2px solid #007bff; /* Highlight with border */
+    padding-bottom: 5px;
+  }
+  
+  
+  .link-group {
+    margin-top: 10px;
+  }
+  
+  .link-button {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .link-github {
+    background-color: #b14545;
+  }
+  
+  .link-hosted {
+    background-color: #416e9f;
+  }
+  
+  .link-icon {
+    margin-right: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .project-card {
+      flex: 1 0 100%; /* Make cards full width on smaller screens */
+    }
+  }
+
+  .skill-label {
+    color: #e4b849; /* Orange */
+  }
+  
+  .details-label {
+    color: #f6f1f3; /* Pink */
+  }
+  
+  .github-label {
+    color: #4682b4; /* Steel Blue */
+  }
+  
+  .hosted-label {
+    color: #32cd32; /* Lime Green */
+  }
+  
+  /* Your existing styles for link buttons and icons */
+  .link-button {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .link-github {
+    background-color: #333;
+  }
+  
+  .link-hosted {
+    background-color: #007bff;
+  }
+  
+  .link-icon {
+    margin-right: 5px;
+  }

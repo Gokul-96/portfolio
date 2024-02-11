@@ -28,7 +28,17 @@ export const projects = [
   },
   {
     id:2,
+    skills: ["Html5", "Css3", "Javascript","React","Web Sockets","MongoDB","Git"],
+    title: "TRACK AND TRACE OF VEHICLE",
+    details:
+      "The driver and Vehicle 1D barcode are decoded by the sick scanner and evaluated using Track and Trace software. The decoded data is then sent to SAP using an API. SAP validates the data whether it is okay or not and sends a signal back to the Track and Trace software. In the parking lot, a user interface (UI) has been created to display the output data.",
+    
+
   
+  },
+ 
+  {
+    id:3,
     skills: [
       "Html5",
       "Css3",
@@ -49,33 +59,24 @@ export const projects = [
     GitHub_backend:
       "https://github.com/Gokul-96/Ticketing_system_BE.git",
       
-
-  
-  },
- 
-  {
-    id:3,
-    skills: ["Html5", "Css3", "Javascript"],
-    title: "Pokemon API",
-    details:
-      "Displaying Pokémon cards using fetch() to retrieve data from the Pokémon API. The listed Pokémon cards include information such as weight, moves, and abilities. The handling of promises utilizes async and await functions in this implementation  ",
-    GitHub_frontend: "https://github.com/Gokul-96/webcode-pokemon.git",
-    Hosted: " https://soft-pudding-c4e215.netlify.app/",
+   
   },
  
   {id:4,
-    skills: ["Html5", "Css3", "Javascript","React","Web Sockets","MongoDB","Git"],
-    title: "TRACK AND TRACE OF VEHICLE",
+    skills: ["Html5", "Css3", "Javascript"],
+    title: "Display Information Using API",
     details:
-      "The driver and Vehicle 1D barcode are decoded by the sick scanner and evaluated using Track and Trace software. The decoded data is then sent to SAP using an API. SAP validates the data whether it is okay or not and sends a signal back to the Track and Trace software. In the parking lot, a user interface (UI) has been created to display the output data.",
+      "Displaying cards using fetch() to retrieve data from the API. The listed cards include information such as weight, moves, and abilities. The handling of promises utilizes async and await functions in this implementation  ",
+    GitHub_frontend: "https://github.com/Gokul-96/webcode-pokemon.git",
+    Hosted: " https://soft-pudding-c4e215.netlify.app/",
   },
-  {
-    id:5,
+  // {
+  //   id:5,
 
-    skills: ["OpenCV"],
-    title: "AUTOMATION OCR READING AND INSPECTION",
-    details:
-      "Using a machine vision camera to capture images and generate an algorithm for optional character recognition of a component. The inspection is conducted on a running conveyor using a sensor to trigger the camera. Utilized inbuilt functions to created user interface.",
+  //   skills: ["OpenCV"],
+  //   title: "AUTOMATION OCR READING AND INSPECTION",
+  //   details:
+  //     "Using a machine vision camera to capture images and generate an algorithm for optional character recognition of a component. The inspection is conducted on a running conveyor using a sensor to trigger the camera. Utilized inbuilt functions to created user interface.",
     
-  },
+  // },
 ];
