@@ -41,7 +41,7 @@ export const projects = [
       "MongoDB",
       "Postman",
     ],
-    title: "Query Resolve Application",
+    title: "Query Resolve Application-Clone",
     details:
       "This is class query resolving clone project. This application is used to get the queries resolved",
     GitHub_frontend:
