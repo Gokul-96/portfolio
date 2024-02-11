@@ -51,7 +51,7 @@ export const projects = [
       "MongoDB",
       "Postman",
     ],
-    title: "Query Resolve Application-Clone",
+    title: "QUERY RESOLVE APPLICATION-CLONE",
     details:
       "This is class query resolving clone project. This application is used to get the queries resolved",
     GitHub_frontend:
@@ -64,7 +64,7 @@ export const projects = [
  
   {id:4,
     skills: ["Html5", "Css3", "Javascript"],
-    title: "Display Information Using API",
+    title: "DISPLAY INFORMATION USING API",
     details:
       "Displaying cards using fetch() to retrieve data from the API. The listed cards include information such as weight, moves, and abilities. The handling of promises utilizes async and await functions in this implementation  ",
     GitHub_frontend: "https://github.com/Gokul-96/webcode-pokemon.git",
@@ -73,8 +73,8 @@ export const projects = [
   // {
   //   id:5,
 
-  //   skills: ["OpenCV"],
-  //   title: "AUTOMATION OCR READING AND INSPECTION",
+  //   skills: ["Html5", "Css3", "Javascript"],
+  //   title: "Dashboard For STUDENT and TEACHER",
   //   details:
   //     "Using a machine vision camera to capture images and generate an algorithm for optional character recognition of a component. The inspection is conducted on a running conveyor using a sensor to trigger the camera. Utilized inbuilt functions to created user interface.",
     
