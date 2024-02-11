@@ -11,6 +11,7 @@ function About() {
     "EXPRESSJS",
     "MONGODB",
     "MYSQL",
+    "Restful API",
     "POSTMAN"
   ];
   return (
@@ -31,9 +32,9 @@ function About() {
         <div className="flex flex-col gap-5 w-1/2 mx-10 sm:w-full sm:p-5">
           <p className="text-white">
             I began my career as a Software Engineer, working extensively with
-            front-end technologies and Industrial Automation, specifically in
-            open CV and machine vision. Subsequently, I transitioned to the role
-            of a Senior Application Engineer, specializing in vision.
+            front-end technologies and Industrial Automation, specifically in UI and
+            vision. Subsequently, I transitioned to the role
+            of a Senior Application Engineer, specializing in machine vision.
             Seeking continuous improvement and skill enhancement, I have pursued
             professional courses in MERN stack web development at Guvi an IIMA & IITM incubated company."
           </p>
