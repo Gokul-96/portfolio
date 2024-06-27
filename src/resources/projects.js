@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     id:2,
-    skills: ["Html5", "Css3", "Javascript","React","Web Sockets","MongoDB","Git"],
+    skills: ["Html5", "Css3", "Javascript","ReactJS","Web Sockets","MongoDB","Git"],
     title: "TRACK AND TRACE OF VEHICLE",
     details:
       "The driver and Vehicle 1D barcode are decoded by the sick scanner and evaluated using Track and Trace software. The decoded data is then sent to SAP using an API. SAP validates the data whether it is okay or not and sends a signal back to the Track and Trace software. In the parking lot, a user interface (UI) has been created to display the output data.",
@@ -70,13 +70,13 @@ export const projects = [
     GitHub_frontend: "https://github.com/Gokul-96/webcode-pokemon.git",
     Hosted: " https://soft-pudding-c4e215.netlify.app/",
   },
-  // {
-  //   id:5,
+  {
+    id:5,
 
-  //   skills: ["Html5", "Css3", "Javascript"],
-  //   title: "Dashboard For STUDENT and TEACHER",
-  //   details:
-  //     "Using a machine vision camera to capture images and generate an algorithm for optional character recognition of a component. The inspection is conducted on a running conveyor using a sensor to trigger the camera. Utilized inbuilt functions to created user interface.",
+    skills: ["Html5", "Css3", "Javascript","RESTful APIs","GIT"],
+    title: "PRODUCT MANAGEMENT SYSTEM",
+    details:
+      "This Application enables users to view, edit and add accounting configurations based on the role. Customized SAP workflows to align with the company’s inventory processes. Data integration challenges by implementing a middleware solution for seamless data exchange between product management system software and SAP ERP. Using a computer vision camera to capture images and generate an algorithm for optional character recognition of a component.",
     
-  // },
+  },
 ];
