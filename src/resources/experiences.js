@@ -14,4 +14,5 @@ export const experiences = [
     period: "October 2021 - February 2023",
     description: "Past 1.4 Year I have worked with system integrator for vision system and programming support.",
   },
+  
 ];

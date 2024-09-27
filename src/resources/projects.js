@@ -28,6 +28,37 @@ export const projects = [
   },
   {
     id:2,
+    skills: [
+      "Html5",
+      "Tailwind CSS",
+      "Javascript",
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "Mongoose",
+      "MongoDB Atlas",
+      "Postman",
+    ],
+    title: "ECommerce Landing Page",
+    details:
+      "The goal is to create a seamless shopping experience, allowing users to browse products, search by category.",
+      GitHub_frontend: "https://github.com/Gokul-96/ECommerce_Landing_page_FE.git",
+    GitHub_backend:
+      "https://github.com/Gokul-96/ECommerce_Landing_page_BE.git",
+      Hosted: " https://spontaneous-brigadeiros-20b16a.netlify.app/",
+      
+   
+  },
+  {id:3,
+    skills: ["Html5", "Css3", "Javascript", "API"],
+    title: "DISPLAY INFORMATION USING API",
+    details:
+      "Displaying cards using fetch() to retrieve data from the API. The listed cards include information such as weight, moves, and abilities. The handling of promises utilizes async and await functions in this implementation  ",
+    GitHub_frontend: "https://github.com/Gokul-96/webcode-pokemon.git",
+    Hosted: " https://soft-pudding-c4e215.netlify.app/",
+  },
+  {
+    id:4,
     skills: ["Html5", "Css3", "Javascript","ReactJS","Web Sockets","MongoDB","Git"],
     title: "TRACK AND TRACE OF VEHICLE",
     details:
@@ -35,40 +66,6 @@ export const projects = [
     
 
   
-  },
- 
-  {
-    id:3,
-    skills: [
-      "Html5",
-      "Css3",
-      "Javascript",
-      "React",
-      "Reducer",
-      "SocketIO",
-      "NodeJS",
-      "ExpressJS",
-      "MongoDB",
-      "Postman",
-    ],
-    title: "QUERY RESOLVE APPLICATION-CLONE",
-    details:
-      "This is class query resolving clone project. This application is used to get the queries resolved",
-    GitHub_frontend:
-      "https://github.com/Gokul-96/Ticketing_system_FE.git",
-    GitHub_backend:
-      "https://github.com/Gokul-96/Ticketing_system_BE.git",
-      
-   
-  },
- 
-  {id:4,
-    skills: ["Html5", "Css3", "Javascript"],
-    title: "DISPLAY INFORMATION USING API",
-    details:
-      "Displaying cards using fetch() to retrieve data from the API. The listed cards include information such as weight, moves, and abilities. The handling of promises utilizes async and await functions in this implementation  ",
-    GitHub_frontend: "https://github.com/Gokul-96/webcode-pokemon.git",
-    Hosted: " https://soft-pudding-c4e215.netlify.app/",
   },
   {
     id:5,

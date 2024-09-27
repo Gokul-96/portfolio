@@ -13,7 +13,7 @@ function About() {
     "MYSQL",
     "RESTFUL API",
     "WEBPACK",
-    "POSTMAN"
+    "POSTMAN",
   ];
   return (
     <div>
@@ -33,13 +33,18 @@ function About() {
         <div className="flex flex-col gap-5 w-1/2 mx-10 sm:w-full sm:p-5">
           <p className="text-white">
             I began my career as a Software Engineer, working extensively with
-            front-end technologies specifically in Frontend. Subsequently, I transitioned to the role
-            of a Senior Application Engineer, specializing in vision and UI.
-            Seeking continuous improvement and skill enhancement, I have pursued
-            professional courses in MERN stack web development at Guvi an IIMA & IITM incubated company."
+            front-end technologies, specifically in Frontend development.
+            Subsequently, I transitioned to the role of a Senior Application
+            Engineer, specializing in vision and UI. Seeking continuous
+            improvement and skill enhancement,<b>I pursued professional courses in
+            MERN stack web development at Guvi, an IIMA & IITM-incubated
+            company. </b> 
           </p>
           <p className="text-white">
-          I obtained a bachelor's degree in Electronics and Instrumentation Engineering in 2018.
+            I obtained a bachelor's degree in Electronics and
+            Instrumentation Engineering in 2018 with 65%. Prior to that, I
+            completed my SSLC in 2012 with 83% and HSC in 2014 with 73%, both at Kongu Vellalar
+            Matric Higher Secondary School, Chennimalai.
           </p>
         </div>
       </div>
