@@ -5,7 +5,7 @@ export const experiences = [
     title: "Software Engineer",
     period: "June 2018 - August 2021",
     description:
-    "I have 3.3 years of experience handling machine vision, OpenCV, and front-end technologies (HTML5, CSS3, JavaScript) for developing user interfaces.",
+    "I have 3.3 years of experience in handling front-end technologies (HTML5, CSS3, JavaScript) for developing user interfaces and other technologies",
   },
   {
     id:2,
