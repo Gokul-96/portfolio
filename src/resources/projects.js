@@ -49,31 +49,54 @@ export const projects = [
       
    
   },
-  {id:3,
+  {
+    id:3,
+    skills: [
+      "Html5",
+      "Javascript",
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "Mongoose",
+      "MongoDB Atlas",
+      "Postman",
+    ],
+    title: "Blood_Donation_Clone_App",
+    details:
+      "Donors can enter their details, including blood group, which will be managed by the admin through a secure interface.",
+      GitHub_frontend: "https://github.com/Gokul-96/MERN-BloodDonationClone-App.git",
+    GitHub_backend:
+      "https://github.com/Gokul-96/MERN-BloodDonationClone-App.git",
+      Hosted: " https://superlative-piroshki-c06b45.netlify.app/",
+      
+  },
+  {
+    id:4,
     skills: ["Html5", "Css3", "Javascript", "API"],
     title: "DISPLAY INFORMATION USING API",
     details:
       "Displaying cards using fetch() to retrieve data from the API. The listed cards include information such as weight, moves, and abilities. The handling of promises utilizes async and await functions in this implementation  ",
     GitHub_frontend: "https://github.com/Gokul-96/webcode-pokemon.git",
     Hosted: " https://soft-pudding-c4e215.netlify.app/",
-  },
-  {
-    id:4,
-    skills: ["Html5", "Css3", "Javascript","ReactJS","Web Sockets","MongoDB","Git"],
-    title: "TRACK AND TRACE OF VEHICLE",
-    details:
-      "The driver and Vehicle 1D barcode are decoded by the sick scanner and evaluated using Track and Trace software. The decoded data is then sent to SAP using an API. SAP validates the data whether it is okay or not and sends a signal back to the Track and Trace software. In the parking lot, a user interface (UI) has been created to display the output data.",
-    
 
   
   },
   {
     id:5,
+    skills: ["Html5", "Css3", "Javascript","ReactJS","Web Sockets","MongoDB","Git"],
+    title: "TRACK AND TRACE OF VEHICLE",
+    details:
+      "The driver and Vehicle 1D barcode are decoded by the sick scanner and evaluated using Track and Trace software. The decoded data is then sent to SAP using an API. SAP validates the data whether it is okay or not and sends a signal back to the Track and Trace software. In the parking lot, a user interface (UI) has been created to display the output data.",
+    
+    
+  },
+  {
+    id:6,
 
     skills: ["Html5", "Css3", "Javascript","RESTful APIs","GIT"],
     title: "PRODUCT MANAGEMENT SYSTEM",
     details:
       "This Application enables users to view, edit and add accounting configurations based on the role. Customized SAP workflows to align with the company’s inventory processes. Data integration challenges by implementing a middleware solution for seamless data exchange between product management system software and SAP ERP. Using a computer vision camera to capture images and generate an algorithm for optional character recognition of a component.",
     
-  },
+  }
 ];
