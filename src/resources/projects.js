@@ -38,7 +38,7 @@ export const projects = [
       "MongoDB Atlas",
       "Postman",
     ],
-    title: "Blood_Donation_Clone_App",
+    title: "Blood_Donation_App",
     details:
       "Developed a MERN stack-based Blood Donation web application with admin authentication, donor management and responsive UI.",
       GitHub_frontend: "https://github.com/Gokul-96/MERN-BloodDonationClone-App.git",
