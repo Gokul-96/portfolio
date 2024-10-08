@@ -30,6 +30,28 @@ export const projects = [
     id:2,
     skills: [
       "Html5",
+      "Javascript",
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "Mongoose",
+      "MongoDB Atlas",
+      "Postman",
+    ],
+    title: "Blood_Donation_Clone_App",
+    details:
+      "Developed a MERN stack-based Blood Donation web application with admin authentication, donor management and responsive UI.",
+      GitHub_frontend: "https://github.com/Gokul-96/MERN-BloodDonationClone-App.git",
+    GitHub_backend:
+      "https://github.com/Gokul-96/MERN-BloodDonationClone-App.git",
+      Hosted: " https://superlative-piroshki-c06b45.netlify.app/",
+    
+   
+  },
+  {
+    id:3,
+    skills: [
+      "Html5",
       "Tailwind CSS",
       "Javascript",
       "ReactJS",
@@ -47,27 +69,6 @@ export const projects = [
       "https://github.com/Gokul-96/ECommerce_Landing_page_BE.git",
       Hosted: " https://spontaneous-brigadeiros-20b16a.netlify.app/",
       
-   
-  },
-  {
-    id:3,
-    skills: [
-      "Html5",
-      "Javascript",
-      "ReactJS",
-      "NodeJS",
-      "ExpressJS",
-      "Mongoose",
-      "MongoDB Atlas",
-      "Postman",
-    ],
-    title: "Blood_Donation_Clone_App",
-    details:
-      "Donors can enter their details, including blood group, which will be managed by the admin through a secure interface.",
-      GitHub_frontend: "https://github.com/Gokul-96/MERN-BloodDonationClone-App.git",
-    GitHub_backend:
-      "https://github.com/Gokul-96/MERN-BloodDonationClone-App.git",
-      Hosted: " https://superlative-piroshki-c06b45.netlify.app/",
       
   },
   {
