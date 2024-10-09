@@ -52,7 +52,6 @@ export const projects = [
     id:3,
     skills: [
       "Html5",
-      "Tailwind CSS",
       "Javascript",
       "ReactJS",
       "NodeJS",
@@ -61,13 +60,13 @@ export const projects = [
       "MongoDB Atlas",
       "Postman",
     ],
-    title: "ECommerce Landing Page",
+    title: "DIET-SUGGESTION-APP",
     details:
-      "The goal is to create a seamless shopping experience, allowing users to browse products, search by category.",
-      GitHub_frontend: "https://github.com/Gokul-96/ECommerce_Landing_page_FE.git",
+      "I built a diet tracking application using the MERN stack, allowing users to log their daily food intake and track nutritional information such as calories, protein, carbohydrates, and more. The app features dynamic data fetching, user authentication, and a responsive design for seamless user experience across devices.",
+      GitHub_frontend: "https://github.com/Gokul-96/Diet-App-FE.git",
     GitHub_backend:
-      "https://github.com/Gokul-96/ECommerce_Landing_page_BE.git",
-      Hosted: " https://spontaneous-brigadeiros-20b16a.netlify.app/",
+      "https://github.com/Gokul-96/Diet-App-BE.git",
+      Hosted: " https://legendary-bubblegum-03dd8c.netlify.app/diet",
       
       
   },
@@ -82,22 +81,22 @@ export const projects = [
 
   
   },
-  {
-    id:5,
-    skills: ["Html5", "Css3", "Javascript","ReactJS","Web Sockets","MongoDB","Git"],
-    title: "TRACK AND TRACE OF VEHICLE",
-    details:
-      "The driver and Vehicle 1D barcode are decoded by the sick scanner and evaluated using Track and Trace software. The decoded data is then sent to SAP using an API. SAP validates the data whether it is okay or not and sends a signal back to the Track and Trace software. In the parking lot, a user interface (UI) has been created to display the output data.",
+  // {
+  //   id:5,
+  //   skills: ["Html5", "Css3", "Javascript","ReactJS","Web Sockets","MongoDB","Git"],
+  //   title: "TRACK AND TRACE OF VEHICLE",
+  //   details:
+  //     "The driver and Vehicle 1D barcode are decoded by the sick scanner and evaluated using Track and Trace software. The decoded data is then sent to SAP using an API. SAP validates the data whether it is okay or not and sends a signal back to the Track and Trace software. In the parking lot, a user interface (UI) has been created to display the output data.",
     
     
-  },
-  {
-    id:6,
+  // },
+  // {
+  //   id:6,
 
-    skills: ["Html5", "Css3", "Javascript","RESTful APIs","GIT"],
-    title: "PRODUCT MANAGEMENT SYSTEM",
-    details:
-      "This Application enables users to view, edit and add accounting configurations based on the role. Customized SAP workflows to align with the company’s inventory processes. Data integration challenges by implementing a middleware solution for seamless data exchange between product management system software and SAP ERP. Using a computer vision camera to capture images and generate an algorithm for optional character recognition of a component.",
+  //   skills: ["Html5", "Css3", "Javascript","RESTful APIs","GIT"],
+  //   title: "PRODUCT MANAGEMENT SYSTEM",
+  //   details:
+  //     "This Application enables users to view, edit and add accounting configurations based on the role. Customized SAP workflows to align with the company’s inventory processes. Data integration challenges by implementing a middleware solution for seamless data exchange between product management system software and SAP ERP. Using a computer vision camera to capture images and generate an algorithm for optional character recognition of a component.",
     
-  }
+  // }
 ];
