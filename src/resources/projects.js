@@ -66,7 +66,7 @@ export const projects = [
       GitHub_frontend: "https://github.com/Gokul-96/Diet-App-FE.git",
     GitHub_backend:
       "https://github.com/Gokul-96/Diet-App-BE.git",
-      Hosted: " https://legendary-bubblegum-03dd8c.netlify.app/diet",
+      Hosted: " https://legendary-bubblegum-03dd8c.netlify.app/",
       
       
   },
